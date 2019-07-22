@@ -1,0 +1,53 @@
+body {
+  background-image: url("https://aysun.s3-us-west-1.amazonaws.com/startup-593336_1920.jpg");
+  height: 850px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+.name {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+}
+
+.logos {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.icon {
+  fill: white;
+}
+
+.icon:hover {
+  fill: rgb(30,144,255);
+  transform: translate(0px,-5px);
+}
+
+.navigation-bar {
+  width: 100%;
+  float: right;
+  padding: 0px;
+  margin-bottom: 140px;
+  list-style: none;
+  border-bottom: 0px;
+  border-top: 0px;
+  box-shadow: 6px rgba(153,153,153,.4);
+  border-bottom: 1px solid rgba(153,153,153,.4);
+  /* line-height: 4em; */
+  border-radius: 0;
+}
+
+.navigation-bar li a {
+  float: right;
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-right: 1px;
+}
