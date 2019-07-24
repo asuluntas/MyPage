@@ -19,7 +19,7 @@ class App extends React.Component {
         <Navigation/>
         <div className="name">Aysun Sulun Tas</div>
         <Icons/>
-        <Projects/>
+        {/* <Projects/> */}
 
     </div>);
   }

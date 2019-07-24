@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(192,192,192);
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.project-title1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.project-title2 {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-image {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.paragraph {
+  font-family: 'IBM Plex Mono', monospace;
+  text-align: left;
+  width: 700px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.button {
+  background-color:	rgb(242, 70, 13);
+  border-radius: 3px;
+  color: white;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  /* margin: 4px 2px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
